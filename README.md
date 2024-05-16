@@ -9,7 +9,7 @@
 ### Технічні вимоги:
 
 *   **Backend:** Python, Django
-*   **Frontend:** Jinja2, Vanilla JS, [HTMX]([loom.com](https://htmx.org/)) (за бажанням)
+*   **Frontend:** Jinja2, Vanilla JS, [HTMX](https://htmx.org/) (за бажанням)
 
 ### Бізнес-логіка:
 
