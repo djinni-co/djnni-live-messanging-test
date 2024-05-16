@@ -1,6 +1,3 @@
-
-* * *
-
 Тестове завдання для fullstack розробника
 -----------------------------------------
 
@@ -79,6 +76,3 @@ cat backup.sql | docker exec -i CONTAINER ID psql --user admin djinni_sandbox
 ```
 
 Good to go! 👍👍
-
-
-* * *
