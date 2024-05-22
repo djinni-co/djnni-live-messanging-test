@@ -43,12 +43,6 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-```bash
-# Env variables
-# Copy example file, change values if needed
-cp .env.example .env
-```
-
 2. Build and run the docker container
 ```
 docker-compose build
