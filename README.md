@@ -55,10 +55,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-3. Check if the installation succeeds by opening the [http://localhost:8000/]()
-
-
-4. Prepare the database 
+3. Prepare the database 
 
 run `docker ps` and get the CONTAINER ID of the postgres:image
 You should see something like this, the `e180ffc7d5d6` is the container id of the pg container.
@@ -72,7 +69,8 @@ e180ffc7d5d6   postgres:latest      "docker-entrypoint.s…"   7 hours ago   Up 
 Then run this command to write backup.sql onto djinni_sandbox db
 
 ```
-cat backup.sql | docker exec -i CONTAINER ID psql --user admin djinni_sandbox
+cat backup.sql | docker exec -i YOUR_CONTAINER_ID psql --user admin djinni_sandbox
 ```
+4. Check if the installation succeeds by opening the [http://localhost:8000/]()
 
 Good to go! 👍👍
